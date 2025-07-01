@@ -8,7 +8,14 @@ defmodule FitDecoder.MixProject do
       elixir: "~> 1.18",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
-      compilers: [:elixir_make] ++ Mix.compilers()
+      compilers: [:elixir_make] ++ Mix.compilers(),
+      description:
+        "A high-performance Elixir library for decoding Garmin .fit files using a C++ NIF.",
+      package: package(),
+      docs: [
+        main: "FitDecoder",
+        extras: ["README.md", "FIELDS.md", "HELPER_FUNCTIONS.md"]
+      ]
     ]
   end
 
@@ -23,7 +30,18 @@ defmodule FitDecoder.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:elixir_make, "~> 0.9", runtime: false}
+      {:elixir_make, "~> 0.9", runtime: false},
+      {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
+    ]
+  end
+
+  defp package do
+    [
+      files: ~w(lib c_src .formatter.exs mix.exs README.md FIELDS.md HELPER_FUNCTIONS.md),
+      licenses: ["Apache-2.0"],
+      links: %{
+        "GitHub" => "https://github.com/nfishel48/fit-decoder"
+      }
     ]
   end
 end
