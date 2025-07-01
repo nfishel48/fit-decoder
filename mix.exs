@@ -37,7 +37,8 @@ defmodule FitDecoder.MixProject do
 
   defp package do
     [
-      files: ~w(lib c_src .formatter.exs mix.exs README.md FIELDS.md HELPER_FUNCTIONS.md),
+      files:
+        ~w(lib c_src Makefile .formatter.exs mix.exs README.md FIELDS.md HELPER_FUNCTIONS.md),
       licenses: ["Apache-2.0"],
       links: %{
         "GitHub" => "https://github.com/nfishel48/fit-decoder"
