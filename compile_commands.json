@@ -1,0 +1,452 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-undefined",
+      "dynamic_lookup",
+      "-dynamiclib",
+      "-fPIC",
+      "-I/opt/homebrew/Cellar/erlang/28.0/lib/erlang/erts-16.0/include",
+      "-Ic_src/fit_sdk/cpp",
+      "-o",
+      "priv/nif.so",
+      "c_src/nif.cpp"
+    ],
+    "directory": "/Users/nfishel/Documents/fit_decoder",
+    "file": "/Users/nfishel/Documents/fit_decoder/c_src/nif.cpp",
+    "output": "/Users/nfishel/Documents/fit_decoder/priv/nif.so"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-undefined",
+      "dynamic_lookup",
+      "-dynamiclib",
+      "-fPIC",
+      "-I/opt/homebrew/Cellar/erlang/28.0/lib/erlang/erts-16.0/include",
+      "-Ic_src/fit_sdk/cpp",
+      "-o",
+      "priv/nif.so",
+      "c_src/fit_sdk/cpp/fit.cpp"
+    ],
+    "directory": "/Users/nfishel/Documents/fit_decoder",
+    "file": "/Users/nfishel/Documents/fit_decoder/c_src/fit_sdk/cpp/fit.cpp",
+    "output": "/Users/nfishel/Documents/fit_decoder/priv/nif.so"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-undefined",
+      "dynamic_lookup",
+      "-dynamiclib",
+      "-fPIC",
+      "-I/opt/homebrew/Cellar/erlang/28.0/lib/erlang/erts-16.0/include",
+      "-Ic_src/fit_sdk/cpp",
+      "-o",
+      "priv/nif.so",
+      "c_src/fit_sdk/cpp/fit_accumulated_field.cpp"
+    ],
+    "directory": "/Users/nfishel/Documents/fit_decoder",
+    "file": "/Users/nfishel/Documents/fit_decoder/c_src/fit_sdk/cpp/fit_accumulated_field.cpp",
+    "output": "/Users/nfishel/Documents/fit_decoder/priv/nif.so"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-undefined",
+      "dynamic_lookup",
+      "-dynamiclib",
+      "-fPIC",
+      "-I/opt/homebrew/Cellar/erlang/28.0/lib/erlang/erts-16.0/include",
+      "-Ic_src/fit_sdk/cpp",
+      "-o",
+      "priv/nif.so",
+      "c_src/fit_sdk/cpp/fit_accumulator.cpp"
+    ],
+    "directory": "/Users/nfishel/Documents/fit_decoder",
+    "file": "/Users/nfishel/Documents/fit_decoder/c_src/fit_sdk/cpp/fit_accumulator.cpp",
+    "output": "/Users/nfishel/Documents/fit_decoder/priv/nif.so"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-undefined",
+      "dynamic_lookup",
+      "-dynamiclib",
+      "-fPIC",
+      "-I/opt/homebrew/Cellar/erlang/28.0/lib/erlang/erts-16.0/include",
+      "-Ic_src/fit_sdk/cpp",
+      "-o",
+      "priv/nif.so",
+      "c_src/fit_sdk/cpp/fit_buffer_encode.cpp"
+    ],
+    "directory": "/Users/nfishel/Documents/fit_decoder",
+    "file": "/Users/nfishel/Documents/fit_decoder/c_src/fit_sdk/cpp/fit_buffer_encode.cpp",
+    "output": "/Users/nfishel/Documents/fit_decoder/priv/nif.so"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-undefined",
+      "dynamic_lookup",
+      "-dynamiclib",
+      "-fPIC",
+      "-I/opt/homebrew/Cellar/erlang/28.0/lib/erlang/erts-16.0/include",
+      "-Ic_src/fit_sdk/cpp",
+      "-o",
+      "priv/nif.so",
+      "c_src/fit_sdk/cpp/fit_buffered_mesg_broadcaster.cpp"
+    ],
+    "directory": "/Users/nfishel/Documents/fit_decoder",
+    "file": "/Users/nfishel/Documents/fit_decoder/c_src/fit_sdk/cpp/fit_buffered_mesg_broadcaster.cpp",
+    "output": "/Users/nfishel/Documents/fit_decoder/priv/nif.so"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-undefined",
+      "dynamic_lookup",
+      "-dynamiclib",
+      "-fPIC",
+      "-I/opt/homebrew/Cellar/erlang/28.0/lib/erlang/erts-16.0/include",
+      "-Ic_src/fit_sdk/cpp",
+      "-o",
+      "priv/nif.so",
+      "c_src/fit_sdk/cpp/fit_buffered_record_mesg_broadcaster.cpp"
+    ],
+    "directory": "/Users/nfishel/Documents/fit_decoder",
+    "file": "/Users/nfishel/Documents/fit_decoder/c_src/fit_sdk/cpp/fit_buffered_record_mesg_broadcaster.cpp",
+    "output": "/Users/nfishel/Documents/fit_decoder/priv/nif.so"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-undefined",
+      "dynamic_lookup",
+      "-dynamiclib",
+      "-fPIC",
+      "-I/opt/homebrew/Cellar/erlang/28.0/lib/erlang/erts-16.0/include",
+      "-Ic_src/fit_sdk/cpp",
+      "-o",
+      "priv/nif.so",
+      "c_src/fit_sdk/cpp/fit_crc.cpp"
+    ],
+    "directory": "/Users/nfishel/Documents/fit_decoder",
+    "file": "/Users/nfishel/Documents/fit_decoder/c_src/fit_sdk/cpp/fit_crc.cpp",
+    "output": "/Users/nfishel/Documents/fit_decoder/priv/nif.so"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-undefined",
+      "dynamic_lookup",
+      "-dynamiclib",
+      "-fPIC",
+      "-I/opt/homebrew/Cellar/erlang/28.0/lib/erlang/erts-16.0/include",
+      "-Ic_src/fit_sdk/cpp",
+      "-o",
+      "priv/nif.so",
+      "c_src/fit_sdk/cpp/fit_date_time.cpp"
+    ],
+    "directory": "/Users/nfishel/Documents/fit_decoder",
+    "file": "/Users/nfishel/Documents/fit_decoder/c_src/fit_sdk/cpp/fit_date_time.cpp",
+    "output": "/Users/nfishel/Documents/fit_decoder/priv/nif.so"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-undefined",
+      "dynamic_lookup",
+      "-dynamiclib",
+      "-fPIC",
+      "-I/opt/homebrew/Cellar/erlang/28.0/lib/erlang/erts-16.0/include",
+      "-Ic_src/fit_sdk/cpp",
+      "-o",
+      "priv/nif.so",
+      "c_src/fit_sdk/cpp/fit_decode.cpp"
+    ],
+    "directory": "/Users/nfishel/Documents/fit_decoder",
+    "file": "/Users/nfishel/Documents/fit_decoder/c_src/fit_sdk/cpp/fit_decode.cpp",
+    "output": "/Users/nfishel/Documents/fit_decoder/priv/nif.so"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-undefined",
+      "dynamic_lookup",
+      "-dynamiclib",
+      "-fPIC",
+      "-I/opt/homebrew/Cellar/erlang/28.0/lib/erlang/erts-16.0/include",
+      "-Ic_src/fit_sdk/cpp",
+      "-o",
+      "priv/nif.so",
+      "c_src/fit_sdk/cpp/fit_developer_field.cpp"
+    ],
+    "directory": "/Users/nfishel/Documents/fit_decoder",
+    "file": "/Users/nfishel/Documents/fit_decoder/c_src/fit_sdk/cpp/fit_developer_field.cpp",
+    "output": "/Users/nfishel/Documents/fit_decoder/priv/nif.so"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-undefined",
+      "dynamic_lookup",
+      "-dynamiclib",
+      "-fPIC",
+      "-I/opt/homebrew/Cellar/erlang/28.0/lib/erlang/erts-16.0/include",
+      "-Ic_src/fit_sdk/cpp",
+      "-o",
+      "priv/nif.so",
+      "c_src/fit_sdk/cpp/fit_developer_field_definition.cpp"
+    ],
+    "directory": "/Users/nfishel/Documents/fit_decoder",
+    "file": "/Users/nfishel/Documents/fit_decoder/c_src/fit_sdk/cpp/fit_developer_field_definition.cpp",
+    "output": "/Users/nfishel/Documents/fit_decoder/priv/nif.so"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-undefined",
+      "dynamic_lookup",
+      "-dynamiclib",
+      "-fPIC",
+      "-I/opt/homebrew/Cellar/erlang/28.0/lib/erlang/erts-16.0/include",
+      "-Ic_src/fit_sdk/cpp",
+      "-o",
+      "priv/nif.so",
+      "c_src/fit_sdk/cpp/fit_developer_field_description.cpp"
+    ],
+    "directory": "/Users/nfishel/Documents/fit_decoder",
+    "file": "/Users/nfishel/Documents/fit_decoder/c_src/fit_sdk/cpp/fit_developer_field_description.cpp",
+    "output": "/Users/nfishel/Documents/fit_decoder/priv/nif.so"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-undefined",
+      "dynamic_lookup",
+      "-dynamiclib",
+      "-fPIC",
+      "-I/opt/homebrew/Cellar/erlang/28.0/lib/erlang/erts-16.0/include",
+      "-Ic_src/fit_sdk/cpp",
+      "-o",
+      "priv/nif.so",
+      "c_src/fit_sdk/cpp/fit_encode.cpp"
+    ],
+    "directory": "/Users/nfishel/Documents/fit_decoder",
+    "file": "/Users/nfishel/Documents/fit_decoder/c_src/fit_sdk/cpp/fit_encode.cpp",
+    "output": "/Users/nfishel/Documents/fit_decoder/priv/nif.so"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-undefined",
+      "dynamic_lookup",
+      "-dynamiclib",
+      "-fPIC",
+      "-I/opt/homebrew/Cellar/erlang/28.0/lib/erlang/erts-16.0/include",
+      "-Ic_src/fit_sdk/cpp",
+      "-o",
+      "priv/nif.so",
+      "c_src/fit_sdk/cpp/fit_factory.cpp"
+    ],
+    "directory": "/Users/nfishel/Documents/fit_decoder",
+    "file": "/Users/nfishel/Documents/fit_decoder/c_src/fit_sdk/cpp/fit_factory.cpp",
+    "output": "/Users/nfishel/Documents/fit_decoder/priv/nif.so"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-undefined",
+      "dynamic_lookup",
+      "-dynamiclib",
+      "-fPIC",
+      "-I/opt/homebrew/Cellar/erlang/28.0/lib/erlang/erts-16.0/include",
+      "-Ic_src/fit_sdk/cpp",
+      "-o",
+      "priv/nif.so",
+      "c_src/fit_sdk/cpp/fit_field.cpp"
+    ],
+    "directory": "/Users/nfishel/Documents/fit_decoder",
+    "file": "/Users/nfishel/Documents/fit_decoder/c_src/fit_sdk/cpp/fit_field.cpp",
+    "output": "/Users/nfishel/Documents/fit_decoder/priv/nif.so"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-undefined",
+      "dynamic_lookup",
+      "-dynamiclib",
+      "-fPIC",
+      "-I/opt/homebrew/Cellar/erlang/28.0/lib/erlang/erts-16.0/include",
+      "-Ic_src/fit_sdk/cpp",
+      "-o",
+      "priv/nif.so",
+      "c_src/fit_sdk/cpp/fit_field_base.cpp"
+    ],
+    "directory": "/Users/nfishel/Documents/fit_decoder",
+    "file": "/Users/nfishel/Documents/fit_decoder/c_src/fit_sdk/cpp/fit_field_base.cpp",
+    "output": "/Users/nfishel/Documents/fit_decoder/priv/nif.so"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-undefined",
+      "dynamic_lookup",
+      "-dynamiclib",
+      "-fPIC",
+      "-I/opt/homebrew/Cellar/erlang/28.0/lib/erlang/erts-16.0/include",
+      "-Ic_src/fit_sdk/cpp",
+      "-o",
+      "priv/nif.so",
+      "c_src/fit_sdk/cpp/fit_field_definition.cpp"
+    ],
+    "directory": "/Users/nfishel/Documents/fit_decoder",
+    "file": "/Users/nfishel/Documents/fit_decoder/c_src/fit_sdk/cpp/fit_field_definition.cpp",
+    "output": "/Users/nfishel/Documents/fit_decoder/priv/nif.so"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-undefined",
+      "dynamic_lookup",
+      "-dynamiclib",
+      "-fPIC",
+      "-I/opt/homebrew/Cellar/erlang/28.0/lib/erlang/erts-16.0/include",
+      "-Ic_src/fit_sdk/cpp",
+      "-o",
+      "priv/nif.so",
+      "c_src/fit_sdk/cpp/fit_mesg.cpp"
+    ],
+    "directory": "/Users/nfishel/Documents/fit_decoder",
+    "file": "/Users/nfishel/Documents/fit_decoder/c_src/fit_sdk/cpp/fit_mesg.cpp",
+    "output": "/Users/nfishel/Documents/fit_decoder/priv/nif.so"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-undefined",
+      "dynamic_lookup",
+      "-dynamiclib",
+      "-fPIC",
+      "-I/opt/homebrew/Cellar/erlang/28.0/lib/erlang/erts-16.0/include",
+      "-Ic_src/fit_sdk/cpp",
+      "-o",
+      "priv/nif.so",
+      "c_src/fit_sdk/cpp/fit_mesg_broadcaster.cpp"
+    ],
+    "directory": "/Users/nfishel/Documents/fit_decoder",
+    "file": "/Users/nfishel/Documents/fit_decoder/c_src/fit_sdk/cpp/fit_mesg_broadcaster.cpp",
+    "output": "/Users/nfishel/Documents/fit_decoder/priv/nif.so"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-undefined",
+      "dynamic_lookup",
+      "-dynamiclib",
+      "-fPIC",
+      "-I/opt/homebrew/Cellar/erlang/28.0/lib/erlang/erts-16.0/include",
+      "-Ic_src/fit_sdk/cpp",
+      "-o",
+      "priv/nif.so",
+      "c_src/fit_sdk/cpp/fit_mesg_definition.cpp"
+    ],
+    "directory": "/Users/nfishel/Documents/fit_decoder",
+    "file": "/Users/nfishel/Documents/fit_decoder/c_src/fit_sdk/cpp/fit_mesg_definition.cpp",
+    "output": "/Users/nfishel/Documents/fit_decoder/priv/nif.so"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-undefined",
+      "dynamic_lookup",
+      "-dynamiclib",
+      "-fPIC",
+      "-I/opt/homebrew/Cellar/erlang/28.0/lib/erlang/erts-16.0/include",
+      "-Ic_src/fit_sdk/cpp",
+      "-o",
+      "priv/nif.so",
+      "c_src/fit_sdk/cpp/fit_mesg_with_event_broadcaster.cpp"
+    ],
+    "directory": "/Users/nfishel/Documents/fit_decoder",
+    "file": "/Users/nfishel/Documents/fit_decoder/c_src/fit_sdk/cpp/fit_mesg_with_event_broadcaster.cpp",
+    "output": "/Users/nfishel/Documents/fit_decoder/priv/nif.so"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-undefined",
+      "dynamic_lookup",
+      "-dynamiclib",
+      "-fPIC",
+      "-I/opt/homebrew/Cellar/erlang/28.0/lib/erlang/erts-16.0/include",
+      "-Ic_src/fit_sdk/cpp",
+      "-o",
+      "priv/nif.so",
+      "c_src/fit_sdk/cpp/fit_profile.cpp"
+    ],
+    "directory": "/Users/nfishel/Documents/fit_decoder",
+    "file": "/Users/nfishel/Documents/fit_decoder/c_src/fit_sdk/cpp/fit_profile.cpp",
+    "output": "/Users/nfishel/Documents/fit_decoder/priv/nif.so"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-undefined",
+      "dynamic_lookup",
+      "-dynamiclib",
+      "-fPIC",
+      "-I/opt/homebrew/Cellar/erlang/28.0/lib/erlang/erts-16.0/include",
+      "-Ic_src/fit_sdk/cpp",
+      "-o",
+      "priv/nif.so",
+      "c_src/fit_sdk/cpp/fit_protocol_validator.cpp"
+    ],
+    "directory": "/Users/nfishel/Documents/fit_decoder",
+    "file": "/Users/nfishel/Documents/fit_decoder/c_src/fit_sdk/cpp/fit_protocol_validator.cpp",
+    "output": "/Users/nfishel/Documents/fit_decoder/priv/nif.so"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-undefined",
+      "dynamic_lookup",
+      "-dynamiclib",
+      "-fPIC",
+      "-I/opt/homebrew/Cellar/erlang/28.0/lib/erlang/erts-16.0/include",
+      "-Ic_src/fit_sdk/cpp",
+      "-o",
+      "priv/nif.so",
+      "c_src/fit_sdk/cpp/fit_unicode.cpp"
+    ],
+    "directory": "/Users/nfishel/Documents/fit_decoder",
+    "file": "/Users/nfishel/Documents/fit_decoder/c_src/fit_sdk/cpp/fit_unicode.cpp",
+    "output": "/Users/nfishel/Documents/fit_decoder/priv/nif.so"
+  }
+]
